@@ -6,7 +6,7 @@ $(document).ready(function() {
      var img_src=$( '.fancybox-inner' ).find('img').attr("src");
      var img_width=$( '.fancybox-inner' ).find('img').width();
      var img_height=$( '.fancybox-inner' ).find('img').height();
-     var html_form="<form action='js/jcrop/crop.php' method='post'>"+
+     var html_form="<form action='crop.php' method='post'>"+
                     "<input type='hidden' id='curr_url' name='curr_url' value="+curr_url+" />"+
                     "<input type='hidden' id='img_src' name='img_src' value="+img_src+" />"+
                     "<input type='hidden' id='img_width' name='img_width' value="+img_width+"/>"+
